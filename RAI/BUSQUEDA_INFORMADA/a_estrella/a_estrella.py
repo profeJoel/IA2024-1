@@ -143,5 +143,5 @@ class a_estrella:
     def init(self):
         self.add(self.estado_inicial)
         #self.algoritmo_a_estrella(self.pop(), 1)
-        #self.algoritmo_avara(self.pop(), 1)
-        self.algoritmo_uniforme(self.pop(), 1)
+        self.algoritmo_avara(self.pop(), 1)
+        #self.algoritmo_uniforme(self.pop(), 1)

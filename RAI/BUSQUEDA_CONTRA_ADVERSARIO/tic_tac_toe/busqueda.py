@@ -81,7 +81,7 @@ class busqueda:
 
     def forzar_movimiento_ganador(self, e, propio):
         if self.encuentra_tres_en_linea(e, propio):
-            return 100
+            return 1000
         return 0      
 
     def mostrar_estado_actual(self, e):
