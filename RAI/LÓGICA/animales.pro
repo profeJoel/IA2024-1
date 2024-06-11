@@ -10,14 +10,17 @@ animal(lobo).
 animal(dragon_de_comodo).
 
 mas_grande(elefante,rinoceronte).
-mas_grande(rinoceronte, oso).
+mas_grande(rinoceronte,oso).
 mas_grande(dragon_de_comodo,guacamayo).
-mas_grande(panda, pudu).
-mas_grande(lobo, coyote).
-mas_grande(pudu, carpincho).
-mas_grande(oso, carpincho).
-mas_grande(panda, dragon_de_comodo).
-mas_grande(carpincho, guacamayo).
-
+mas_grande(panda,pudu).
+mas_grande(lobo,coyote).
+mas_grande(pudu,carpincho).
+mas_grande(oso,carpincho).
+mas_grande(panda,dragon_de_comodo).
+mas_grande(carpincho,guacamayo).
+mas_grande(oso,lobo).
+mas_grande(oso,panda).
+mas_grande(coyote,pudu).
 
 mas_grande(A1,A2):- mas_grande(A1, X), mas_grande(X, A2).
+mas_pequeno(A1,A2):- mas_grande(A2,A1).
